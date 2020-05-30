@@ -1,0 +1,458 @@
+/*!
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.intro-header {
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(../img/rocks-small.jpeg) no-repeat center center;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.intro-message {
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.intro-message>h1 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  font-size: 5em;
+}
+
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message>h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-social-buttons i {
+  font-size: 80%;
+}
+
+@media(max-width:767px) {
+  .intro-message {
+    padding-bottom: 15%;
+  }
+  .intro-message>h1 {
+    font-size: 3em;
+  }
+  ul.intro-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.intro-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+  .intro-divider {
+    width: 100%;
+  }
+}
+
+.network-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.content-section-a:not(#projects)  {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+#education2 {
+  padding-top: 1px;
+}
+
+#education3 {
+  padding-top: 14px;
+}
+
+#education {
+  padding-top: 50px;
+}
+
+#summer {
+  margin-top: -40px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+#experience, #extracurriculars {
+  padding-top: 50px;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.content-section-b:not(#education):not(#experience):not(#summer):not(#extracurriculars):not(#education2):not(#education3) {
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+#projects{
+  padding-top: 50px;
+  background-color: #f8f8f8;
+}
+
+.section-heading {
+  margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+  padding: 100px 0;
+  color: #f8f8f8;
+  background: url(../img/water.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.banner h2 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 3em;
+}
+
+.banner ul {
+  margin-bottom: 0;
+}
+
+.banner-social-buttons {
+  float: right;
+  margin-top: 0;
+}
+
+@media(max-width:1199px) {
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+  }
+
+  .img-right {
+    display: none;
+  }
+}
+
+@media(max-width:767px) {
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+  ul.banner-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.banner-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+
+  .img-right {
+    display: none;
+  }
+}
+
+footer {
+  padding: 5px 0px;
+  background-color: white;
+}
+
+p.copyright {
+  margin: 0px 0 0;
+  text-align: center;
+}
+
+.img-mnt {
+  
+    width: 100%;
+    max-width: 200px;
+    padding-bottom: 50px;
+
+}
+
+.img-top {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #e7e7e7;
+}
+
+.bio-pic {
+  padding-bottom: 12px;
+}
+
+#education-text, #work-text, #projects-text {
+  padding-bottom: 50px;
+}
+
+#solar {
+  padding-top: 60px;
+}
+
+.list-inline-item {
+  padding-top:2px;
+  padding-bottom: 2px;
+}
+
+#rean, #fb, #citadel, #penn, #chess, #student-board, #innovation, #march-of-dimes {
+  font-size: 25px;
+  margin: 0;
+}
+
+#word, #website, #sudoku, #solar, #mybook, #codewords {
+  font-size: 25px;
+}
+
+#word {
+  padding-top: 15px;
+}
+
+#sudoku {
+  padding-top: 25px;
+}
+
+.img-rean {
+  
+    width: 100%;
+    max-width: 200px;
+    padding-bottom: 50px;
+    padding-top: 70px;
+
+}
+
+.img-fb {
+  width: 100%;
+  max-width: 200px;
+  padding-bottom: 50px;
+  padding-top: 40px;
+
+}
+
+.img-citadel {
+  width: 100%;
+  max-width: 200px;
+  margin-top: -15px;
+}
+
+.img-citadel-securities {
+  width: 100%;
+  max-width: 200px;
+  padding-top: 8px;
+
+}
+
+.img-penn {
+  
+    width: 100%;
+    max-width: 200px;
+    padding-bottom: 50px;
+    padding-top: 83px;
+
+}
+
+.img-penn-2 {
+  
+    width: 100%;
+    max-width: 200px;
+    padding-bottom: 50px;
+    padding-top: 113px;
+
+}
+
+.img-penn-3 {
+    width: 100%;
+    max-width: 200px;
+    padding-bottom: 50px;
+    padding-top: 55px;
+
+}
+
+.img-chess {
+  
+    width: 100%;
+    max-width: 200px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+
+}
+
+.vid-word {
+  width: 100%;
+  max-width: 200px;
+  padding-bottom: 50px;
+  padding-top: 5px;
+}
+
+.img-pcs {
+  
+  width: 100%;
+  max-width: 200px;
+  padding-bottom: 30px;
+  padding-top: 60px;
+
+}
+
+.img-mybook {
+  
+  width: 100%;
+  max-width: 200px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+}
+
+.img-codewords {
+  
+  width: 100%;
+  max-width: 200px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+}
+
+.img-website {
+  
+    width: 100%;
+    max-width: 200px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+
+}
+
+.vid-sudoku {
+  width: 100%;
+  max-width: 200px;
+  padding-bottom: 10px;
+  padding-top: 40px;
+}
+
+.img-solar {
+  
+    width: 100%;
+    max-width: 200px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+.img-mnt2 {
+  
+    width: 100%;
+    max-width: 200px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+
+}
+
+.img-mnt2 {
+  
+    width: 100%;
+    max-width: 200px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+
+}
+
+.img-innovation {
+  
+    width: 100%;
+    max-width: 200px;
+    padding-top: 140px;
+    padding-bottom: 50px;
+
+}
+
+.img-march-of-dimes {
+  
+    width: 100%;
+    max-width: 200px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+
+}
+
+#classes {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.panel-clr.on, .panel-clr1.on, .panel-clr2.on, .panel-clr3.on, .panel-clr4.on, .panel-clr5.on, .panel-clr6.on, .panel-clr7.on {
+  background-color: #e7e7e7;
+  
+}
+
+.panel-clr, .panel-clr1, .panel-clr2, .panel-clr3, .panel-clr4, .panel-clr5, .panel-clr6, .panel-clr7 {
+  background-color: #f8f8f8;
+  
+}
+
+#fall16, #spring17, #fall17, #spring18, #fall18, #spring19, #fall19, #spring20 {
+  margin: 0;
+}
+
+.navbar {
+  position: fixed;
+}
+
+#nav ul li:hover a{ 
+  color:#FFF;
+}
+
+#connect-row {
+  padding-bottom: 100px;
+}
+
+#connect {
+  padding-bottom: 10px;
+}
+
+.footer-social {
+  text-align: center;
+}
+.footer-social li {
+  display: inline;
+}
+.footer-info {
+  text-align: center;
+}
+.footer-info li {
+  display: inline-block;
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  border: 0;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
