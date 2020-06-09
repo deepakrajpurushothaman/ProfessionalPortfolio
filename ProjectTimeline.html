@@ -1,19 +1,49 @@
-<!DOCTYPE html>
----
-layout: default
----
 
-<h1>{{ site.title }}</h1>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Project Timeline</title>
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" type="text/css" href="/project-timeline/css/style.css" media="all" />
+</head>
+<body>
+	<h1>My Project Timeline</h1>
 <ol class="timeline">
-	{% for post in site.posts %}
+	
 		<li class="tl-node">
-			<div class="tl-stamp">{{ post.date | date_to_string }}</div>
-			{% if site.linked_posts %}
-				<div class="tl-content"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
-			{% else %}
-				<div class="tl-content">{{ post.title }}</div>
-			{% endif %}
-			{{ post.content }}
+			<div class="tl-stamp">14 Aug 2013</div>
+			
+				<div class="tl-content"><a href="/project-timeline/2013/08/14/kickoff-meeting">Kickoff Meeting</a></div>
+			
+			<p><a href="#">View notes</a></p>
 		</li>
-	{% endfor %}
+	
+		<li class="tl-node">
+			<div class="tl-stamp">09 Aug 2013</div>
+			
+				<div class="tl-content"><a href="/project-timeline/2013/08/09/sign-contract">Sign contract</a></div>
+			
+			<p><a href="#">View contract</a></p>
+		</li>
+	
+		<li class="tl-node">
+			<div class="tl-stamp">07 Aug 2013</div>
+			
+				<div class="tl-content"><a href="/project-timeline/2013/08/07/initial-meeting">Initial meeting</a></div>
+			
+			<p><a href="#">Meeting notes</a></p>
+		</li>
+	
+		<li class="tl-node">
+			<div class="tl-stamp">13 Jul 2013</div>
+			
+				<div class="tl-content"><a href="/project-timeline/2013/07/13/initial-contact">Initial contact</a></div>
+			
+			
+		</li>
+	
 </ol>
+
+</body>
+</html>
