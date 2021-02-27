@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web & Mobile Application Development Learning Path</title>
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+	<h1>Entreprenurship Learning Path: Start to Goal</h1>
+<ol class="timeline">
+		<!--<li class="tl-node">
+			<div class="tl-stamp">Start</div>
+			
+				<div class="tl-content"><a href="/project-timeline/2013/08/09/sign-contract">Kickoff</a></div>
+			
+			<p><a href="#">View progress</a></p>
+		</li>!-->
+	
+		<li class="tl-node">
+			<div class="tl-stamp">Start</div>
+			
+				<div class="tl-content"><a href="https://github.com/deepakrajpurushothaman/TBI-LearningPathBA/projects/1">Full-Stack Development Theory Courses</a></div>
+			
+			  <p><a href="#"> Gamification </a> Progress = 5% </p>
+		</li>
+	
+		<li class="tl-node">
+			<div class="tl-stamp">Contenious Learning with Projects</div>
+			
+				<div class="tl-content"><a href="https://github.com/deepakrajpurushothaman/TBI-LearningPathBA/projects/2">Projects</a></div>
+			
+			  <p><a href="#">Project12:</a> Progress = 0% </p>
+		</li>
+	
+</ol>
+
+</body>
+</html>
