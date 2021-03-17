@@ -1,4 +1,6 @@
-## Features
+## Features 
+
+## Technologies
 
 -  Fully Responsive
 -  HTML5 + CSS3
