@@ -1,5 +1,9 @@
 ## Features 
 
+- Professional Story
+- Personal Story
+- The Start-Up Story
+
 ## Technologies
 
 -  Fully Responsive
