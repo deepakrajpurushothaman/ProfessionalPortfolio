@@ -24,14 +24,27 @@
   <link href="css/landing-page.css" rel="stylesheet"> -->
   
 <script>
-$(document).ready(function(){
-  $("#myInput").on("keyup", function() {
-    var value = $(this).val().toLowerCase();
-    $("#myTable tr").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-    });
-  });
-});
+function myFunction() {
+  // Declare variables
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
 </script>
 
 </head>
@@ -53,7 +66,7 @@ $(document).ready(function(){
   <input class="form-control" id="myInput" type="text" placeholder="Search..">
   <br>  
       <h2 class="section-heading"> Courses By Universities </h2>   
-<table class="table">
+<table class="myTable">
   <thead class="thead-light">
     <tr>
       <th scope="col">#</th>
@@ -244,7 +257,7 @@ $(document).ready(function(){
 
       <div class="clearfix"></div>
       <h2 class="section-heading"> Courses by Corporates </h2>
-      <table class="table">
+ <table class="myTable">
   <thead class="thead-light">
     <tr>
       <th scope="col">#</th>
@@ -362,7 +375,7 @@ $(document).ready(function(){
 
       <div class="clearfix"></div>
       <h2 class="section-heading">Courses by Indiviuals </h2>
-      <table class="table">
+ <table class="myTable">
   <thead class="thead-light">
     <tr>
       <th scope="col">#</th>
