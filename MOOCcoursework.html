@@ -46,6 +46,13 @@ function myFunction() {
   }
 }
 </script>
+  
+<script>
+$(document).ready(function () {
+$('#dtBasicExample').DataTable();
+$('.dataTables_length').addClass('bs-select');
+});
+</script>
 
 </head>
 <body>
@@ -66,7 +73,7 @@ function myFunction() {
   <input class="form-control" id="myInput" type="text" placeholder="Search..">
   <br>  
       <h2 class="section-heading"> Courses By Universities </h2>   
-<table class="table">
+<table id="dtBasicExample" class="table">
   <thead class="thead-light">
     <tr>
       <th scope="col">#</th>
