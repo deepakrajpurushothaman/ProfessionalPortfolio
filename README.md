@@ -8,7 +8,8 @@
 
 -  Fully Responsive
 -  HTML5 + CSS3
--  Built on Bootstrap 4
+-  JQuery
+-  Bootstrap 4
 -  Compatible with all modern browsers
 
 ## Credits
