@@ -18,7 +18,7 @@ body, h1, h2, h3, h4, h5, h6 {
   padding-bottom: 50px;
   text-align: center;
   color: #f8f8f8;
-  background: url(../img/rocks-small.jpeg) no-repeat center center;
+  background: url(../Data//img/rocks-small.jpeg) no-repeat center center;
   background-size: cover;
   min-height: 100%;
 }
@@ -129,7 +129,7 @@ body, h1, h2, h3, h4, h5, h6 {
 .banner {
   padding: 100px 0;
   color: #f8f8f8;
-  background: url(../img/water.jpg) no-repeat center center;
+  background: url(../Data/img/water.jpg) no-repeat center center;
   background-size: cover;
 }
 
