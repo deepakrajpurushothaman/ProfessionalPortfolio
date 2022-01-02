@@ -69,11 +69,11 @@ $('.dataTables_length').addClass('bs-select');
     <div class="container">
       <hr class="section-heading-spacer">
       <div class="clearfix"></div>
-        <p>Type Course Name, University Name to search </p>  
-  <input class="form-control" id="myInput" type="text" placeholder="Search..">
+        <p>Type University Name to search </p>  
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for university..">
   <br>  
       <h2 class="section-heading"> Courses By Universities </h2>   
-<table id="dtBasicExample" class="table">
+<table id="myTable" class="table">
   <thead class="thead-light">
     <tr>
       <th scope="col">#</th>
